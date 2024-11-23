@@ -1,0 +1,54 @@
+body {
+  background-color: rgb(136, 75, 75);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 2000px;
+}
+.slider {
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 6px #fff solid;
+  width: 45%;
+}
+.container {
+  width: 90%;
+  position: relative;
+  height: 500px;
+  overflow: hidden;
+}
+.images {
+  display: flex;
+  height: 450px;
+  width: 100%;
+
+  position: relative;
+  transition: all 0.3s;
+}
+.images img {
+  width: 100%;
+}
+
+.indicators span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 50%;
+  font-size: 20px;
+  position: absolute;
+  cursor: pointer;
+}
+.indicators .right {
+  right: 0px;
+  top: 45%;
+}
+.indicators .left {
+  left: 0px;
+  top: 45%;
+}
